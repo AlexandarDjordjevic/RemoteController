@@ -17,4 +17,4 @@ class Discover:
             if x['usn'][len('uuid:'):] == uuid:
                 client = STB(x['usn'][len('uuid:'):], x['location'], "")
                 return client
-        
+    

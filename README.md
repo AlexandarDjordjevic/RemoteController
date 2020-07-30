@@ -14,3 +14,4 @@ python3 test_server 12345 192.168.100.1
 
  - argparse (pip3 install argparse)
  - ssdpy (pip3 install ssdpy)
+ - requests (pip install requests)

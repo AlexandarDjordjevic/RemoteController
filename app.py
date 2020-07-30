@@ -1,12 +1,9 @@
 import sys
 import argparse
+from logs import log
 from service import Discover
 
-def print_foo():
-    print('Foo...')
 
-def print_bar():
-    print('Bar')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -18,15 +15,18 @@ if __name__ == '__main__':
         sys.exit()
     if args.discoverall:
         stbs = Discover.all()
-        for stb in stbs:
-            print ("UUID: " + stb.uuid)
-            print ("Location: " + stb.location)
+        if stbs:
+            for stb in stbs:
+                log.info("UUID  " + stb.uuid)
+                log.info("Location  " + stb.descriptor_location)
+        else:
+            log.info("There is no available devices!")
     else:
         if args.uuid:
             stb = Discover.uuid(args.uuid)
             if stb:
-                print ("UUID: " + stb.uuid)
-                print ("Location: " + stb.location)
+               log.info("UUID  " + stb.uuid)
+               log.info("Location  " + stb.descriptor_location)
             else:
-                print("Can't find device with UUID: " + args.uuid)
+               log.error("Can't find device with UUID " + args.uuid)
 
