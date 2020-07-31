@@ -9,7 +9,7 @@ try:
 except ImportError:
     from http_parser.pyparser import HttpParser
 
-class Scaner(Thread):
+class Scanner(Thread):
     def __init__(self, ip_address):
         Thread.__init__(self)
         self.ip_address = ip_address
@@ -34,22 +34,21 @@ class Scaner(Thread):
 
             try:
                 if headers['NTS'] == 'ssdp:alive' and headers['NT'] == 'urn:zenterio-net:service:X-CTC_RemotePairing:1':
-                    print ('Location: ' + headers['LOCATION'])
-                    print ('NTS: ' + headers['NTS'])
-                    print ('NT: ' +  headers['NT'])
-                    print ('USN: ' + headers['USN'])
-                    stb = STB(uuid=headers['USN'][5:41], location=headers['LOCATION'])
+                    stb = STB(uuid=headers['USN'][5:41], location=headers['LOCATION'], nt=headers['NT'])
                     self.mutex.acquire(1)
-                    if stb not in self.stbs:
+                    for x in self.stbs:
+                        if x.uuid == stb.uuid:
+                            break
+                    else:
                         self.stbs.append(stb)
                         log.info('-------------------------------------------')
                         log.info("New STB detected!")
                         log.info("UUID: " + stb.uuid)
                         log.info("Location: " + stb.location)
-                        log.info(' ')
+                        log.info("NT: " + stb.nt)
                     self.mutex.release()
             except:
-                print("Nah")
+                pass
             
 
     def listen(self):
