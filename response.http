@@ -1,0 +1,249 @@
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::upnp:rootdevice
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb
+
+g
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:device:CompanionDevice:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:device:CompanionDevice:1
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:schemas-upnp-org:service:ConnectionManager:1
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:schemas-upnp-org:service:RenderingControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:schemas-upnp-org:service:RenderingControl:1
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_RemotePairing:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_RemotePairing:1
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_RemoteControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_RemoteControl:1
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_SearchControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_SearchControl:1
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_MediaControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_MediaControl:1
+
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::upnp:rootdevice
+
+c97807ebb::urn:zenterio-net:service:X-CTC_MediaControl:1
+
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb
+
+::urn:zenterio-net:service:X-CTC_MediaControl:1
+
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:device:CompanionDevice:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:device:CompanionDevice:1
+
+ol:1
+
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:schemas-upnp-org:service:ConnectionManager:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:schemas-upnp-org:service:ConnectionManager:1
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:schemas-upnp-org:service:RenderingControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:schemas-upnp-org:service:RenderingControl:1
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_RemotePairing:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_RemotePairing:1
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_RemoteControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_RemoteControl:1
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_SearchControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_SearchControl:1
+
+
+
+
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=60
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1
+LOCATION: http://192.168.100.117:8081/xml/companiondevice.xml
+NT: urn:zenterio-net:service:X-CTC_MediaControl:1
+NTS: ssdp:alive
+SERVER: Linux/2.6 UPnP/1.1 zss/1.0
+USN: uuid:6f2a6f4b-f1fc-482e-8f88-808c97807ebb::urn:zenterio-net:service:X-CTC_MediaControl:1
+
+

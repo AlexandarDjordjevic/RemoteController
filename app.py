@@ -3,8 +3,6 @@ import argparse
 from logs import log
 from service import Discover
 
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-d','--discoverall', action='store_true', help="discover all devices on network")
